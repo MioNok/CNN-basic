@@ -24,7 +24,7 @@ Below I have attached results of the network:
 ### Stop signs:
 ![alt text](https://i.imgur.com/FBtHM9g.png)
 
-### Rubber Ducks
+### Rubber Ducks:
 ![alt text](https://i.imgur.com/1tRRhDk.png)
 
 
