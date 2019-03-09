@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from keras.models import load_model
 #Import image
-img1 = Image.open('VinDuck.jpg').convert('LA')
+img1 = Image.open('Duck.jpg').convert('LA')
 
 #Show image
 plt.imshow(img1)
