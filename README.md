@@ -13,10 +13,19 @@ The dataset I used is scraped from Google image search by me. I do not own the i
 
 Below I have attached results of the network:
 
-# Training results
+## Training results
 ![alt text](https://i.imgur.com/h5cu3O6.png)
 
 ![alt text](https://i.imgur.com/NTNQO9s.png)
 
 ![alt text](https://i.imgur.com/o0y9YCe.png)
+
+## Snapshot of the datasets
+### Stop signs:
+![alt text](https://i.imgur.com/FBtHM9g.png)
+
+### Rubber Ducks
+![alt text](https://i.imgur.com/1tRRhDk.png)
+
+
 
