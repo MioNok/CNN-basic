@@ -11,7 +11,15 @@ I have also provided the model for you to try out if you do not want to train yo
 
 The dataset I used is scraped from Google image search by me. I do not own the images so I wont post them here, but if you wish to use my dataset feel free to contact me and I'll see what I can do.
 
-Below I have attached results of the network:
+
+## Snapshot of the datasets
+
+### Stop signs:
+![alt text](https://i.imgur.com/FBtHM9g.png)
+
+### Rubber Ducks:
+![alt text](https://i.imgur.com/1tRRhDk.png)
+
 
 ## Training results
 ![alt text](https://i.imgur.com/h5cu3O6.png)
@@ -20,12 +28,7 @@ Below I have attached results of the network:
 
 ![alt text](https://i.imgur.com/o0y9YCe.png)
 
-## Snapshot of the datasets
-### Stop signs:
-![alt text](https://i.imgur.com/FBtHM9g.png)
 
-### Rubber Ducks:
-![alt text](https://i.imgur.com/1tRRhDk.png)
 
 
 
