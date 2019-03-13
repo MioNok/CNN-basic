@@ -1,4 +1,7 @@
 # CNN_basics
+
+**Will soon add another go at this with a lager dataset and also taking into account the other some other improvements, for example validation sets**
+
 Simple repository for beginners who want to explore the possibilities of CNNs.
 
 This repository contains an example of how to deal with images in python, how to format them for CNNs and how to train you network to recognize the images. 
