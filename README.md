@@ -1,18 +1,27 @@
-# CNN_basics
+# CNNs
+Added a new CNN with upgrades on almost every front. Better code in general, more images and a better model in every way. This model is based on a dataset from kaggle: https://www.kaggle.com/alexattia/the-simpsons-characters-dataset/kernels
 
-**Will soon add another go at this with a lager dataset and also taking into account the other some other improvements, for example validation sets**
+I managed to get an accuracy of **89%** when evaluating on test set. The model is uploaded, and you can try it out on your own with some modifications to the duck model load file.
 
-Simple repository for beginners who want to explore the possibilities of CNNs.
+### Co-occurrence matrix of simpsons
+![alt text](https://i.imgur.com/oE2mXv0.png)
 
-This repository contains an example of how to deal with images in python, how to format them for CNNs and how to train you network to recognize the images. 
+Most of the errors were between bart and lisa, probably since their shapes/colors are similar.
 
-In this example I have gatherd a small set of images. The one of the sets contain an assortment of pictures of rubber ducks and the other one contais pictures of stop signs. The reasoning for these two categories is that I'm hoping that the network can notice the straigth lines of the stop signs and the round edges of the ducks to easily differentiate between these two objects. 
 
-The dataset is extremely small, and I have cropped the pictures to only be 100x100, partly to reduce dimensionality and partly so that this network can be run easily on computers wihtout an NVIDIA gpu. 
+## Old stuff
+### Duck and stop sign dataset
+_Simple repository for beginners who want to explore the possibilities of CNNs._
 
-I have also provided the model for you to try out if you do not want to train your own.
+_This repository contains an example of how to deal with images in python, how to format them for CNNs and how to train you network to recognize the images._ 
 
-The dataset I used is scraped from Google image search by me. I do not own the images so I wont post them here, but if you wish to use my dataset feel free to contact me and I'll see what I can do.
+_In this example I have gatherd a small set of images. The one of the sets contain an assortment of pictures of rubber ducks and the other one contais pictures of stop signs. The reasoning for these two categories is that I'm hoping that the network can notice the straigth lines of the stop signs and the round edges of the ducks to easily differentiate between these two objects._ 
+
+_The dataset is extremely small, and I have cropped the pictures to only be 100x100, partly to reduce dimensionality and partly so that this network can be run easily on computers wihtout an NVIDIA gpu._ 
+
+_I have also provided the model for you to try out if you do not want to train your own._
+
+_The dataset I used is scraped from Google image search by me. I do not own the images so I wont post them here, but if you wish to use my dataset feel free to contact me and I'll see what I can do._
 
 
 ## Snapshot of the datasets
