@@ -5,23 +5,20 @@
 from PIL import Image
 import matplotlib.pyplot as plt 
 import numpy as np
-import pandas as pd
 from keras.models import load_model
 #Import image
-img1 = Image.open('Duck.jpg').convert('LA')
+img1 = Image.open('Duck.jpg').convert('L')
 
 #Show image
 plt.imshow(img1)
 
 #Reshape the image to the correct format
 img_array  = np.array(img1)
-img_flat = (img_array[:,:,0]/255.0).flatten()
+img_flat = (img_array/255.0)
 
-my_data = pd.DataFrame(np.array([img_flat]))
-x_train_img = (my_data.iloc[:,:].values).astype('float32')
 
 #Final shape of the Image should be (1,100,100,1)
-x_train_img = x_train_img.reshape(x_train_img.shape[0], 100, 100,1)
+x_train_img = img_flat.reshape(1, 100, 100,1)
 
 #Import my model
 model = load_model("Duck_Sign_Model")
